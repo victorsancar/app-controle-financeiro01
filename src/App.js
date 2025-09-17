@@ -31,7 +31,7 @@ function App() {
     );
   }
 
-  if (!user) {
+  if (user) {
     return (
         <div className="app-container">
             <GlobalStyles />
