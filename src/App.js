@@ -16,7 +16,7 @@ function App() {
       setLoading(false);
     });
     return () => unsubscribe();
-  }, []);
+  }, [auth]);
 
   if (loading) {
     return <p>A carregar...</p>;
